@@ -1,0 +1,74 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+@media only screen and (max-width: 991px) { 
+ 
+ .service_item{
+ 	margin-bottom: 20px;
+ }
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+
+	.head_content h2 {
+	    font-size: 3em;
+	}
+    
+	.my-photo img {
+	    margin-bottom: 20px;
+	}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.port_wrap{
+	  -webkit-column-count: 2;
+	  -moz-column-count: 2;
+	  -ms-column-count: 2;
+	  -o-column-count: 2;
+	  column-count: 2;
+	  -webkit-column-gap: 10px;
+	  -moz-column-gap: 10px;
+	  -ms-column-gap: 10px;
+	  -o-column-gap: 10px;
+	  column-gap: 10px;
+	}
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (max-width: 479px){
+	.page_title h2 {
+	    font-size: 19px;
+	}
+	.port_wrap{
+	  -webkit-column-count: 1;
+	  -moz-column-count: 1;
+	  -ms-column-count: 1;
+	  -o-column-count: 1;
+	  column-count: 1;
+	  -webkit-column-gap: 5px;
+	  -moz-column-gap: 5px;
+	  -ms-column-gap: 5px;
+	  -o-column-gap: 5px;
+	  column-gap: 5px;
+	}
+
+	.head_content h2 {
+	    font-size: 2em;
+	}
+
+	.head_content p {
+	    font-size: 18px;
+	}
+
+	.footer {
+	    padding-bottom: 20px;
+	}
+}
